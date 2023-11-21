@@ -1,1 +1,12 @@
 
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+
+weather:
+  api:
+    key: 31059e689e55e00058760819e1e76596
+    units: metric
